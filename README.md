@@ -4,7 +4,7 @@ Projeto de sistema bancário desenvolvido com FastAPI no backend e HTML, CSS e J
 
 ---
 
-# 🚀 Funcionalidades
+#  Funcionalidades
 
 ✅ Criar conta  
 ✅ Consultar saldo  
@@ -69,7 +69,7 @@ cd banco-api
 
 ---
 
-# 🔥 Backend
+#  Backend
 
 ## Entrar na pasta backend
 
@@ -105,7 +105,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 🎨 Frontend
+#  Frontend
 
 Abra:
 
