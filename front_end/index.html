@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Banco do Caio</h1>
+
+    <!-- CRIAR CONTA -->
+    <section>
+      <h2>Criar Conta</h2>
+
+      <input type="number" id="criarId" placeholder="ID da nova conta">
+
+      <input type="number" id="saldoInicial" placeholder="Saldo inicial">
+
+      <button onclick="criarConta()">
+        Criar Conta
+      </button>
+    </section>
+
+    <!-- CONSULTAR -->
+    <section>
+      <h2>Consultar Saldo</h2>
+
+      <input type="number" id="saldoId" placeholder="ID da conta">
+
+      <button onclick="verSaldo()">
+        Ver Saldo
+      </button>
+    </section>
+
+    <!-- DEPÓSITO -->
+    <section>
+      <h2>Depositar</h2>
+
+      <input type="number" id="depositoId" placeholder="ID da conta">
+
+      <input type="number" id="depositoValor" placeholder="Valor depósito">
+
+      <button onclick="depositar()">
+        Depositar
+      </button>
+    </section>
+
+    <!-- SAQUE -->
+    <section>
+      <h2>Sacar</h2>
+
+      <input type="number" id="saqueId" placeholder="ID da conta">
+
+      <input type="number" id="saqueValor" placeholder="Valor saque">
+
+      <button onclick="sacar()">
+        Sacar
+      </button>
+    </section>
+
+    <!-- TRANSFERÊNCIA -->
+    <section>
+      <h2>Transferência</h2>
+
+      <input type="number" id="origemId" placeholder="Conta origem">
+
+      <input type="number" id="destinoId" placeholder="Conta destino">
+
+      <input type="number" id="transferenciaValor" placeholder="Valor">
+
+      <button onclick="transferir()">
+        Transferir
+      </button>
+    </section>
+
+    <!-- RESULTADO -->
+    <section>
+      <h2>Resultado</h2>
+
+      <pre id="resultado"></pre>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
