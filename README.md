@@ -1,4 +1,4 @@
-# 💳 Banco API
+# Banco API
 
 Projeto de sistema bancário desenvolvido com FastAPI no backend e HTML, CSS e JavaScript no frontend.
 
@@ -6,15 +6,15 @@ Projeto de sistema bancário desenvolvido com FastAPI no backend e HTML, CSS e J
 
 #  Funcionalidades
 
-✅ Criar conta  
-✅ Consultar saldo  
-✅ Depositar dinheiro  
-✅ Sacar dinheiro  
-✅ Transferir entre contas  
+Criar conta  
+Consultar saldo  
+Depositar dinheiro  
+Sacar dinheiro  
+Transferir entre contas  
 
 ---
 
-# 🛠 Tecnologias utilizadas
+#  Tecnologias utilizadas
 
 ## Backend
 - Python
@@ -118,7 +118,7 @@ Ou utilize:
 
 ---
 
-# 📌 Objetivo do Projeto
+#  Objetivo do Projeto
 
 Projeto criado para estudos de:
 - APIs REST
@@ -130,6 +130,5 @@ Projeto criado para estudos de:
 
 ---
 
-# 👨‍💻 Autor
 
 Desenvolvido por Caio Quintão 🚀
